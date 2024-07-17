@@ -25,5 +25,5 @@ jobs:
         distribution: 'oracle' # See 'Supported distributions' for available options
         java-version: '21'
 
-    - name: Run Java application
-      run: java HelloWorldApp.java
+    - name: Run Maven version
+      run: mvn --version
