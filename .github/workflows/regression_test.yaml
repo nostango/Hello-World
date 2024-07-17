@@ -17,7 +17,7 @@ jobs:
       uses: actions/checkout@v4
 
     - name: Clone Hello World repository
-      run: ${{ secrets.QA_REPO_ACCESS_URL }}
+      run: git clone ${{ secrets.QA_REPO_ACCESS_URL }}
 
     - name: Set up JDK 21
       uses: actions/setup-java@v4
